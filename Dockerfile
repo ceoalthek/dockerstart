@@ -6,5 +6,3 @@ LABEL maintainer="rrcfesc@gmail.com"
 ADD index.php /var/www/html/index.php
 
 EXPOSE 80 443
-
-ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
